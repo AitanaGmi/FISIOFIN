@@ -12,47 +12,111 @@ import java.time.LocalDate;
 
 public class Pacient {
 
+    private String givenName;
+    private String familyName;
+    private String dni;
+    private LocalDate birthDate;
+    private String gender;
+    private String address;
+    private String city;
+    private String postalCode;
+    private String country;
+    private String telephone;
+    private String email;
+
     public String getGivenName() {
-        throw new UnsupportedOperationException("Unimplemented method 'getGivenName'");
+        return givenName;
+    }
+
+    public void setGivenName(String givenName) {
+        this.givenName = givenName;
     }
 
     public String getFamilyName() {
-        throw new UnsupportedOperationException("Unimplemented method 'getFamilyName'");
+        return familyName;
+    }
+
+    public void setFamilyName(String familyName) {
+        this.familyName = familyName;
     }
 
     public String getDni() {
-        throw new UnsupportedOperationException("Unimplemented method 'getDni'");
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
     }
 
     public LocalDate getBirthDate() {
-        throw new UnsupportedOperationException("Unimplemented method 'getBirthDate'");
+        return birthDate;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
     }
 
     public String getGender() {
-        throw new UnsupportedOperationException("Unimplemented method 'getGender'");
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public String getAddress() {
-        throw new UnsupportedOperationException("Unimplemented method 'getAddress'");
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getCity() {
-        throw new UnsupportedOperationException("Unimplemented method 'getCity'");
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 
     public String getPostalCode() {
-        throw new UnsupportedOperationException("Unimplemented method 'getPostalCode'");
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
     }
 
     public String getCountry() {
-        throw new UnsupportedOperationException("Unimplemented method 'getCountry'");
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     public String getTelephone() {
-        throw new UnsupportedOperationException("Unimplemented method 'getTelephone'");
+        return telephone;
+    }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 
     public String getEmail() {
-        throw new UnsupportedOperationException("Unimplemented method 'getEmail'");
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Pacient [dni=" + dni + ", givenName=" + givenName + ", familyName=" + familyName
+                + ", birthDate=" + birthDate + ", gender=" + gender + ", address=" + address
+                + ", city=" + city + ", postalCode=" + postalCode + ", country=" + country
+                + ", telephone=" + telephone + ", email=" + email + "]";
     }
 }
